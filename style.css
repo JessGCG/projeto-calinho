@@ -1,0 +1,45 @@
+:root{
+    --cor0: #DEC9DD;
+    --cor1: #FF36F9;
+    --cor2: #B720E3;
+    --cor3: #9B2FFA;
+    --cor4: #6732E6;
+    --cor5: #2E23FB;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--cor0);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px;
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+main > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, var(--cor0), var(--cor3));
+}
+
+a > img{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
