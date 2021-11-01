@@ -62,7 +62,7 @@ article{
     min-width: 300px;
     background-color: white;
     margin: auto;
-    height: 450px;
+    height: 465px;
     border-radius: 0px 0px 5px 5px;
 }
 
@@ -79,9 +79,13 @@ article > div{
     position: relative;
 }
 
-article > a{
-    font-size: 25px;
-    padding: 0px 0px 0px 320px;
+article > input{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 
 iframe{

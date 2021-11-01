@@ -28,11 +28,20 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/v-EAO39eSvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
-        <a href="index.html">Voltar</a>
+        <input type="button" value="voltar">
     </article>
 
     <footer>
         <p>Feito por Jess</p>
     </footer>
+
+    <script>
+        window.document.getElementsByTagName('input')[0].addEventListener('click', voltar)
+        var url = window.document.url
+
+        function voltar(){
+            window.history.back(url)
+        }
+    </script>
 </body>
 </html>
